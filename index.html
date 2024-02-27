@@ -9,6 +9,7 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,9 +43,205 @@
         <div class="col">teste</div>
         <div class="col">teste</div>
     </div>
-    <div class="container">
+    <div class="container mb-md-5 ">
         <h1>Texto H1</h1>
         <p>Paragrafo</p>
     </div>
-</body>
+    <h2 class="text-center mb-md-4">Colunas e Breackpoints</h2>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">Três colunas iguais!</li>
+      </ol>
+    </nav>
+    <div class="row mb-md-4 pb-md-4">
+      <div class="col grey text-center">.col</div>
+      <div class="col orange text-center">.col</div>
+      <div class="col grey text-center">.col</div>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">Três colunas responsivas com 4 colunas cada!</li>
+      </ol>
+    </nav>
+    <div class="row mb-md-4 pb-md-4">
+      <div class="col-md-4 grey text-center">.col-md-4</div>
+      <div class="col-md-4 orange text-center">.col-md-4</div>
+      <div class="col-md-4 grey text-center">.col-md-4</div>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">Duas colunas desiguais!</li>
+      </ol>
+    </nav>
+    <div class="row mb-md-4 pb-md-4">
+      <div class="col-md-4 grey text-center">.col-md-4</div>
+      <div class="col-md-8 orange text-center">.col-md-8</div>
+    </div>
+    <h2 class="text-center mb-md-4">Tipografia/Texto</h2>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">h1 - h6</li>
+      </ol>
+    </nav>
+    <div class="container text-center">
+      <h1>h1</h1>
+      <h2>h2</h2>
+      <h3>h3</h3>
+      <h4>h4</h4>
+      <h5>h5</h5>
+      <h6>h6</h6>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">small</li>
+      </ol>
+    </nav>
+    <div class="container text-center">
+      <h1>h1 <small>texto secundario</small></h1>
+      <h2>h2 <small>texto secundario</small></h2>
+      <h3>h3 <small>texto secundario</small></h3>
+      <h4>h4 <small>texto secundario</small></h4>
+      <h5>h5 <small>texto secundario</small></h5>
+      <h6>h6 <small>texto secundario</small></h6>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">code</li>
+      </ol>
+    </nav>
+    <div class="container text-center">
+      <h1>h1 <code>texto code</code></h1>
+      <h2>h2 <code>texto code</code></h2>
+      <h3>h3 <code>texto code</code></h3>
+      <h4>h4 <code>texto code</code></h4>
+      <h5>h5 <code>texto code</code></h5>
+      <h6>h6 <code>texto code</code></h6>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">kdb</li>
+      </ol>
+    </nav>
+    <div class="container text-center">
+      <p>p <kdb>texto kdb</kdb></p>
+      <p>p <kdb>texto kdb</kdb></p>
+      <p>p <kdb>texto kdb</kdb></p>
+      <p>p <kdb>texto kdb</kdb></p>
+      <p>p <kdb>texto kdb</kdb></p>
+      <p>p <kbd>texto kdb</kbd></p>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">kdb</li>
+      </ol>
+    </nav>
+    <div class="container text-center">
+      <p class="text-muted">text-muted</p>
+      <p class="text-primary">text-primary</p>
+      <p class="text-success">text-success</p>
+      <p class="text-info">text-info</p>
+      <p class="text-warning">text-warning</p>
+      <p class="text-danger">text-danger</p>
+      <p class="text-secondary">text-secondary</p>
+      <p class="text-dark">text-dark</p>
+      <p class="text-body">text-body</p>
+      <p class="text-light">text-light</p>
+      <p class="text-white">text-white</p>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">text-color</li>
+      </ol>
+    </nav>
+    <div class="container">
+      <a href="#" class="text-muted">text-muted</a>
+      <a href="#" class="text-primary">text-primary</a>
+      <a href="#" class="text-success">text-success</a>
+      <a href="#" class="text-info">text-info</a>
+      <a href="#" class="text-warning">text-warning</a>
+      <a href="#" class="text-danger">text-danger</a>
+      <a href="#" class="text-secondary">text-secondary</a>
+      <a href="#" class="text-dark">text-dark</a>
+      <a href="#" class="text-body">text-body</a>
+      <a href="#" class="text-light">text-light</a>
+      <a href="#" class="text-white">text-white</a>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">bg-color</li>
+      </ol>
+    </nav>
+    <div class="container">
+      <p class="bg-primary text-white">bg-primary text-white</p>
+      <p class="bg-success text-white">bg-success text-white</p>
+      <p class="bg-info text-white">bg-info text-white</p>
+      <p class="bg-warning text-white">bg-warning text-white</p>
+      <p class="bg-danger text-white">bg-danger text-white</p>
+      <p class="bg-secondary text-white">bg-secondary text-white</p>
+      <p class="bg-dark text-white">bg-dark text-white</p>
+      <p class="bg-light text-dark">Light grey background color.</p>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active font-weight-bold" aria-current="page">tabela</li>
+      </ol>
+    </nav>
+    <div class="row center">
+      <div class="col-md-10">
+      <h2 class="mb-md-3"><strong>GRUPO F</strong></h2>
+      </div>
+      <div class="col-md-6">
+        <table class="table">
+          <thead class="grey text-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">QUA 02/08/2023 MELBOURNE RECTANGULAR 07:00</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
