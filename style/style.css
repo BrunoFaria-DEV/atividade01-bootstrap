@@ -14,3 +14,147 @@
     justify-content: center;
 
 }
+
+.elemment{
+    width: 60px;
+    height: 60px;
+}
+
+#table{
+	border-spacing: 2px;
+    max-width: 1296px;
+}
+	#table td{
+		border-top: none;
+		text-align: center;
+		font-weight: bold;
+        padding: 0.25rem;
+	}
+	#table th{
+		text-align: center;
+		border-bottom: none;
+	}
+
+td{
+	color: rgb(70, 70, 70);
+}
+
+th{
+	color:rgb(49, 49, 49);
+}
+#remove_margin_top {
+	padding-top: 0px;
+}
+
+.container-custom{
+    display: flex;
+    align-items: center;
+}
+
+.azul{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(7, 115, 151);
+	background-color: rgb(7, 115, 151);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roxo{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(110, 7, 151);
+	background-color: rgb(110, 7, 151);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.azul-claro{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(34, 187, 174);
+	background-color: rgb(34, 187, 174);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salmao{
+	width: 60px;
+	height: 60px;
+	border: 1px solid salmon;
+	background-color: salmon;
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amarelo{
+	width: 60px;
+	height: 60px;
+	border: 1px solid yellow;
+	background-color: yellow;
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laranja{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(255, 145, 0);
+	background-color: rgb(255, 145, 0);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vinho{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(77, 8, 3);
+	background-color: rgb(77, 8, 3);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vermelho{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(204, 15, 15);
+	background-color: rgb(204, 15, 15);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verde{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(43, 139, 43);
+	background-color: rgb(43, 139, 43);
+	color: rgb(255, 255, 255);
+    border-radius: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
